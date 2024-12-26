@@ -9,6 +9,9 @@ import Record from "./components/Record";
 import RecordList from "./components/RecordList";
 import "./index.css";
 
+// basename for github pages
+const basename = "/employee-manager-mern";
+
 const router = createBrowserRouter([
   {
     // This is the root route
@@ -43,7 +46,9 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+],
+{basename}
+);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

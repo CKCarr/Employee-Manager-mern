@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import dentistLogo from "../assets/dentist.png";
 
 export default function Navbar() {
   return (
@@ -6,7 +7,7 @@ export default function Navbar() {
       <nav className="flex justify-between items-center mb-6">
         <NavLink to="/">
         <div>
-        <img alt="MERN Employee Management App logo" className="h-10 inline" src="/dentist.png"></img>
+        <img alt="MERN Employee Management App logo" className="h-10 inline" src={dentistLogo}></img>
         <h1 className="text-2xl font-bold ">Employee Manager</h1>
         </div>
         </NavLink>
