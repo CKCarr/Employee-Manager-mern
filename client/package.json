@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/CKCarr/employee-manager-mern",
+  "homepage": "https://github.com/CKCarr/employee-manager-mern/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
